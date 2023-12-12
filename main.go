@@ -1,7 +1,5 @@
-package main
+package get_test
 
-import "fmt"
-
-func main() {
-	fmt.Println("Hello, World!")
+func RootHello() string {
+	return "Hello, Root!"
 }
